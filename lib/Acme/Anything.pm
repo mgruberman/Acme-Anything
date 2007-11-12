@@ -1,6 +1,8 @@
 package Acme::Anything;
+use strict;
+use warnings;
 
-$VERSION = '0.01';
+our $VERSION = '0.02';
 
 push @INC, sub {
     open my ($fh), '<', \1
@@ -8,13 +10,14 @@ push @INC, sub {
     return $fh;
 };
 
+no warnings;    ## no critic
 'Warning! The consumption of alcohol may cause you to think you have mystical kung-fu powers.'
 
 __END__
 
 =head1 NAME
 
-Acme::Anything - Anything, even non-existant modules are loadable
+Acme::Anything - Anything, even imaginary modules are loadable
 
 =head1 SYNOPSIS
 
@@ -24,7 +27,7 @@ Acme::Anything - Anything, even non-existant modules are loadable
 
 =head1 DESCRIPTION
 
-This module inserts a hook into C<@INC> to load non-existant modules.
+This module inserts a hook into C<@INC> to load imaginary modules.
 
 =head1 AUTHOR
 

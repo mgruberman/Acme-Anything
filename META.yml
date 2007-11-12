@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                Acme-Anything
-version:             0.01
-abstract:            Anything, even non-existant modules are loadable
+version:             0.02
+abstract:            Anything, even imaginary modules are loadable
 license:             ~
 generated_by:        ExtUtils::MakeMaker version 6.36
 distribution_type:   module
