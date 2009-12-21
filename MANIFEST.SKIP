@@ -1,0 +1,7 @@
+~$
+\.bak$
+\.old$
+Acme-Anything
+^Makefile$
+^\.git
+\#
