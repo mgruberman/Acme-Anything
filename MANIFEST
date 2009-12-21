@@ -4,4 +4,5 @@ META.yml # Will be created by "make dist"
 Makefile.PL
 README
 lib/Acme/Anything.pm
+lib/Acme/Anything.pod
 t/imaginary.t
