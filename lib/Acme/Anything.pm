@@ -1,5 +1,6 @@
 package Acme::Anything;
 use strict;
+use 5.008;
 use warnings;
 
 our $VERSION = '0.02';
