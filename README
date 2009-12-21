@@ -1,49 +1,73 @@
-Acme-Anything
+NAME
+    Acme::Anything - Anything, even imaginary modules are loadable
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+SYNOPSIS
+      use Acme::Anything;
+      use Fish; # Ok!
+      use CGI; # Also ok!
 
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it get an idea of the modules uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+DESCRIPTION
+    This module inserts a hook into @INC to load imaginary modules.
 
 INSTALLATION
+    To install this module, run the following commands:
 
-To install this module, run the following commands:
-
-    perl Makefile.PL
-    make
-    make test
-    make install
-
+        perl Makefile.PL
+        make
+        make test
+        make install
 
 SUPPORT AND DOCUMENTATION
+    After installing, you can find documentation for this module with the
+    perldoc command.
 
-After installing, you can find documentation for this module with the perldoc command.
+        perldoc Acme::Anything
 
-    perldoc Acme::Anything
+    You can also look for information at:
 
-You can also look for information at:
+    RT, CPAN's request tracker
+    <http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Anything>
+    AnnoCPAN, Annotated CPAN documentation
+    <http://annocpan.org/dist/Acme-Anything>
+    CPAN Ratings <http://cpanratings.perl.org/d/Acme-Anything>
+    Search CPAN <http://search.cpan.org/dist/Acme-Anything>
 
-    Search CPAN
-        http://search.cpan.org/dist/Acme-Anything
+AUTHOR
+    Josh ben Jore, >jjore@cpan.org<
 
-    CPAN Request Tracker:
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Anything
+SUPPORT
+    You can find documentation for this module with the perldoc command.
 
-    AnnoCPAN, annotated CPAN documentation:
-        http://annocpan.org/dist/Acme-Anything
+        perldoc Acme::Anything
 
-    CPAN Ratings:
-        http://cpanratings.perl.org/d/Acme-Anything
+    You can also look for information at:
 
-COPYRIGHT AND LICENCE
+    *   AnnoCPAN: Annotated CPAN documentation
 
-Copyright (C) 2007 Josh ben Jore
+        <http://annocpan.org/dist/Acme-Anything>
 
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
+    *   CPAN Ratings
+
+        <http://cpanratings.perl.org/d/Acme-Anything>
+
+    *   RT: CPAN's request tracker
+
+        <http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-Anything>
+
+    *   Search CPAN
+
+        <http://search.cpan.org/dist/Acme-Anything>
+
+COPYRIGHT & LICENSE
+    Copyright 2007, 2009 Josh ben Jore
+
+    This program is distributed WITHOUT ANY WARRANTY, including but not
+    limited to the implied warranties of merchantability or fitness for a
+    particular purpose.
+
+    The program is free software. You may distribute it and/or modify it
+    under the terms of the GNU General Public License as published by the
+    Free Software Foundation (either version 2 or any later version) and the
+    Perl Artistic License as published by O’Reilly Media, Inc. Please open
+    the files named Copying and Artistic for a copy of these licenses.
+
