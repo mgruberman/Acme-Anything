@@ -3,7 +3,7 @@ use strict;
 use 5.008;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 push @main::INC, \ &handler_of_last_resort;
 
