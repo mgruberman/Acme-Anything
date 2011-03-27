@@ -1,9 +1,0 @@
-Changes
-lib/Acme/Anything.pm
-lib/Acme/Anything.pod
-Makefile.PL
-MANIFEST
-MANIFEST.SKIP
-META.yml			# Will be created by "make dist"
-README
-t/imaginary.t
